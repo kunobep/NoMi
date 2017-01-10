@@ -1104,4 +1104,849 @@ LogInit: Object subsystem initialized
 [2017.01.10-19.33.55:298][985]LogSavePackage: Save=7.61ms
 [2017.01.10-19.33.55:298][985]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_GroundPanel00_fbx88F8863041B78E03F12E258B83715AF4.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.uasset'
 [2017.01.10-19.33.55:299][985]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.uasset
-[2017.01.10-19.33.55:314][985]Cmd: OBJ SAVEPACKAGE PACKAG
+[2017.01.10-19.33.55:314][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset" SILENT=true
+[2017.01.10-19.33.55:323][985]LogSavePackage: Save=7.35ms
+[2017.01.10-19.33.55:323][985]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Platform00_fbxEDF907394E578A6F0CE66697E5F0E907.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset'
+[2017.01.10-19.33.55:324][985]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset
+[2017.01.10-19.56.00:031][103]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_GroundPanel00_fbx.fbx]
+[2017.01.10-19.56.00:067][103]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_GroundPanel00_fbx.fbx
+[2017.01.10-19.56.00:072][103]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-19.56.00:093][103]LogStaticMesh: Building static mesh MD_Cons_GroundPanel00_fbx...
+[2017.01.10-19.56.00:094][103]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.MD_Cons_GroundPanel00_fbx
+[2017.01.10-19.56.00:099][103]LogEditorFactories: -- imported successfully
+[2017.01.10-19.56.05:230][591]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling00_fbx.fbx]
+[2017.01.10-19.56.05:267][591]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling00_fbx.fbx
+[2017.01.10-19.56.05:272][591]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-19.56.05:293][591]LogStaticMesh: Building static mesh MD_Cons_Ceiling00_fbx...
+[2017.01.10-19.56.05:294][591]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Ceiling00_fbx.MD_Cons_Ceiling00_fbx
+[2017.01.10-19.56.05:299][591]LogEditorFactories: -- imported successfully
+[2017.01.10-19.56.10:685][ 90]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Platform00_fbx.fbx]
+[2017.01.10-19.56.10:717][ 90]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Platform00_fbx.fbx
+[2017.01.10-19.56.10:721][ 90]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-19.56.10:743][ 90]LogStaticMesh: Building static mesh MD_Cons_Platform00_fbx...
+[2017.01.10-19.56.10:746][ 90]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx.MD_Cons_Platform00_fbx
+[2017.01.10-19.56.10:751][ 90]LogEditorFactories: -- imported successfully
+[2017.01.10-19.56.15:485][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx5)
+[2017.01.10-19.56.22:323][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:323][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:324][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:324][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:324][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:325][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:325][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:325][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:325][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:326][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:326][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:326][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:327][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.22:333][444]LogEditorActor: Deleted 13 Actors (0.010 secs)
+[2017.01.10-19.56.27:952][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx17)
+[2017.01.10-19.56.33:365][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:366][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:366][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:366][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:367][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:367][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:367][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:367][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:368][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:368][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:368][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:369][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:369][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:369][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:369][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:370][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:370][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:370][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:370][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:371][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.56.33:376][752]LogEditorActor: Deleted 20 Actors (0.011 secs)
+[2017.01.10-19.56.45:608][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx)
+[2017.01.10-19.56.46:517][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.01.10-19.56.52:136][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx)
+[2017.01.10-19.57.02:383][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx)
+[2017.01.10-19.57.04:188][356]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_BigWall00_fbx)
+[2017.01.10-19.57.04:696][408]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_BigWall00_fbx2)
+[2017.01.10-19.57.38:731][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx6)
+[2017.01.10-19.58.07:005][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx4)
+[2017.01.10-19.58.07:604][701]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_BigWall00_fbx6)
+[2017.01.10-19.58.31:550][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-19.58.33:348][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.01.10-19.58.36:702][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-19.58.37:078][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx8)
+[2017.01.10-19.58.41:807][650]Cmd: DELETE
+[2017.01.10-19.58.41:807][650]Cmd: ACTOR DELETE
+[2017.01.10-19.58.41:808][650]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.58.41:814][650]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.01.10-19.58.42:419][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx16)
+[2017.01.10-19.58.43:113][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx6)
+[2017.01.10-19.58.49:485][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx20)
+[2017.01.10-19.58.54:095][ 86]Cmd: DELETE
+[2017.01.10-19.58.54:095][ 86]Cmd: ACTOR DELETE
+[2017.01.10-19.58.54:096][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.58.54:096][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.58.54:097][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.58.54:097][ 86]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.58.54:103][ 86]LogEditorActor: Deleted 4 Actors (0.007 secs)
+[2017.01.10-19.59.01:925][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx11)
+[2017.01.10-19.59.08:256][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.01.10-19.59.08:610][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx7)
+[2017.01.10-19.59.09:628][910]Cmd: DELETE
+[2017.01.10-19.59.09:628][910]Cmd: ACTOR DELETE
+[2017.01.10-19.59.09:628][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.09:635][910]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.01.10-19.59.10:865][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx8)
+[2017.01.10-19.59.12:090][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx8)
+[2017.01.10-19.59.17:128][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx9)
+[2017.01.10-19.59.18:206][911]Cmd: DELETE
+[2017.01.10-19.59.18:206][911]Cmd: ACTOR DELETE
+[2017.01.10-19.59.18:207][911]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.18:212][911]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.01.10-19.59.25:784][820]Cmd: TRANSACTION UNDO
+[2017.01.10-19.59.25:784][820]LogEditorTransaction: Undo Delete Actors
+[2017.01.10-19.59.37:165][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx3)
+[2017.01.10-19.59.37:806][195]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx2)
+[2017.01.10-19.59.47:801][349]Cmd: DELETE
+[2017.01.10-19.59.47:801][349]Cmd: ACTOR DELETE
+[2017.01.10-19.59.47:801][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:801][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:802][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:802][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:802][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:802][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:803][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:803][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:803][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:803][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:804][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:804][349]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-19.59.47:810][349]LogEditorActor: Deleted 12 Actors (0.009 secs)
+[2017.01.10-19.59.51:443][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx8)
+[2017.01.10-19.59.58:308][579]Cmd: TRANSACTION UNDO
+[2017.01.10-19.59.58:308][579]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.00.10:847][ 45]Cmd: DELETE
+[2017.01.10-20.00.10:847][ 45]Cmd: ACTOR DELETE
+[2017.01.10-20.00.10:848][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.10:848][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.10:848][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.10:854][ 45]LogEditorActor: Deleted 3 Actors (0.007 secs)
+[2017.01.10-20.00.14:093][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx11)
+[2017.01.10-20.00.18:561][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx9)
+[2017.01.10-20.00.22:209][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx8)
+[2017.01.10-20.00.35:796][993]Cmd: DELETE
+[2017.01.10-20.00.35:796][993]Cmd: ACTOR DELETE
+[2017.01.10-20.00.35:796][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.35:796][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.35:797][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.00.35:803][993]LogEditorActor: Deleted 3 Actors (0.007 secs)
+[2017.01.10-20.00.40:125][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx4)
+[2017.01.10-20.00.43:481][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx11)
+[2017.01.10-20.00.47:172][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.00.51:387][842]Cmd: TRANSACTION UNDO
+[2017.01.10-20.00.51:387][842]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.00.52:664][967]Cmd: TRANSACTION UNDO
+[2017.01.10-20.00.52:664][967]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.00.53:723][ 89]Cmd: TRANSACTION UNDO
+[2017.01.10-20.00.53:723][ 89]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.00.54:241][151]Cmd: TRANSACTION UNDO
+[2017.01.10-20.00.54:241][151]LogEditorTransaction: Undo Delete Actors
+[2017.01.10-20.01.16:651][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx)
+[2017.01.10-20.01.21:794][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx)
+[2017.01.10-20.01.22:945][481]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx2)
+[2017.01.10-20.01.24:120][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx)
+[2017.01.10-20.01.24:857][687]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Ceiling00_fbx2)
+[2017.01.10-20.01.42:843][750]Cmd: TRANSACTION UNDO
+[2017.01.10-20.01.42:843][750]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.02.04:988][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx)
+[2017.01.10-20.02.33:032][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.02.35:902][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.01.10-20.02.40:821][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.01.10-20.03.50:942][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.10-20.03.50:979][551]LogSavePackage: Save=29.88ms
+[2017.01.10-20.03.50:979][551]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeonA800BEC84E81BBCC97F4439B1287AFC3.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.10-20.03.50:981][551]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.10-20.03.50:990][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.10-20.03.51:058][551]LogSavePackage: Save=66.22ms
+[2017.01.10-20.03.51:058][551]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltData93FC22CC4E9FBC886FEE86B9A0A594D3.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.10-20.03.51:059][551]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.10-20.03.54:320][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_Ceiling00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Ceiling00_fbx.uasset" SILENT=true
+[2017.01.10-20.03.54:329][896]LogSavePackage: Save=7.28ms
+[2017.01.10-20.03.54:329][896]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Ceiling00_fbx210D12D7400C99D503B883A870CFF477.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Ceiling00_fbx.uasset'
+[2017.01.10-20.03.54:330][896]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Ceiling00_fbx.uasset
+[2017.01.10-20.03.54:342][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.uasset" SILENT=true
+[2017.01.10-20.03.54:351][896]LogSavePackage: Save=7.31ms
+[2017.01.10-20.03.54:351][896]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_GroundPanel00_fbx9D29E21249492BA3F56E49BDD53EEBDD.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.uasset'
+[2017.01.10-20.03.54:352][896]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_GroundPanel00_fbx.uasset
+[2017.01.10-20.03.54:365][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset" SILENT=true
+[2017.01.10-20.03.54:378][896]LogSavePackage: Save=12.00ms
+[2017.01.10-20.03.54:378][896]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Platform00_fbx86F37B3A4E41F91B64D7D3A5F1133D39.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset'
+[2017.01.10-20.03.54:379][896]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset
+[2017.01.10-20.06.29:901][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx18)
+[2017.01.10-20.08.34:873][157]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_ConreteFloor00_fbx.fbx)
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.10-20.08.34:875][157]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.10-20.08.34:879][157]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_ConreteFloor00_fbx.fbx
+[2017.01.10-20.08.34:883][157]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.08.36:349][157]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_ConreteFloor00_fbx.fbx
+[2017.01.10-20.08.36:354][157]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.08.36:356][157]LogStaticMesh: Building static mesh MD_Cons_ConreteFloor00_fbx...
+[2017.01.10-20.08.36:357][157]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx.MD_Cons_ConreteFloor00_fbx
+[2017.01.10-20.08.37:510][245]LogActorFactory: Actor Factory created MD_Cons_ConreteFloor00_fbx
+[2017.01.10-20.08.39:598][491]LogActorFactory: Actor Factory created MD_Cons_ConreteFloor00_fbx
+[2017.01.10-20.08.52:645][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx18)
+[2017.01.10-20.08.53:974][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx)
+[2017.01.10-20.08.55:555][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx18)
+[2017.01.10-20.08.56:952][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx)
+[2017.01.10-20.09.07:494][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx18)
+[2017.01.10-20.09.38:736][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx18)
+[2017.01.10-20.09.41:060][574]Cmd: DELETE
+[2017.01.10-20.09.41:060][574]Cmd: ACTOR DELETE
+[2017.01.10-20.09.41:061][574]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.09.41:067][574]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.01.10-20.09.45:195][ 38]LogActorFactory: Actor Factory created MD_Cons_BigWallFrame00_fbx
+[2017.01.10-20.09.47:995][373]LogActorFactory: Actor Factory created MD_Cons_BigWallFrame00_fbx
+[2017.01.10-20.09.57:151][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx)
+[2017.01.10-20.10.01:544][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWallFrame00_fbx)
+[2017.01.10-20.10.06:952][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx11)
+[2017.01.10-20.10.07:458][556]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.10.10:087][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWallFrame00_fbx)
+[2017.01.10-20.10.14:860][413]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.10.30:730][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx)
+[2017.01.10-20.10.31:737][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx20)
+[2017.01.10-20.10.32:396][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx19)
+[2017.01.10-20.10.40:252][375]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.10.41:526][520]Cmd: TRANSACTION UNDO
+[2017.01.10-20.10.41:526][520]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.10.45:575][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.10.54:125][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.01.10-20.11.18:703][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx22)
+[2017.01.10-20.11.20:202][993]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MD_Cons_BigWall00_fbx20)
+[2017.01.10-20.13.51:469][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.10-20.13.51:503][152]LogSavePackage: Save=31.74ms
+[2017.01.10-20.13.51:503][152]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_Auto1AABFA170452A9698A1735A813912F968.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap'
+[2017.01.10-20.13.51:503][152]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap
+[2017.01.10-20.13.51:504][152]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.042
+[2017.01.10-20.13.51:504][152]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2017.01.10-20.13.51:505][152]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx] ([1] browsable assets)...
+[2017.01.10-20.13.51:529][152]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx.MD_Cons_ConreteFloor00_fbx]
+[2017.01.10-20.13.51:529][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx]
+[2017.01.10-20.13.51:537][152]LogSavePackage: Save=7.44ms
+[2017.01.10-20.13.51:537][152]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_ConreteFloor00_fbx_Auto12A94F7194DC47509AF643AA00060F6A1.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx_Auto1.uasset'
+[2017.01.10-20.13.51:538][152]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx_Auto1.uasset
+[2017.01.10-20.13.51:538][152]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.01.10-20.16.44:300][218]Cmd: DELETE
+[2017.01.10-20.16.44:300][218]Cmd: ACTOR DELETE
+[2017.01.10-20.16.44:301][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.16.44:301][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.16.44:302][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.16.44:302][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.16.44:308][218]LogEditorActor: Deleted 4 Actors (0.007 secs)
+[2017.01.10-20.16.50:174][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx)
+[2017.01.10-20.16.51:374][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx2)
+[2017.01.10-20.16.54:176][390]Cmd: TRANSACTION UNDO
+[2017.01.10-20.16.54:177][390]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.17.00:819][808]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Wall00_fbx.fbx)
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.10-20.17.00:822][808]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.10-20.17.00:826][808]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Wall00_fbx.fbx
+[2017.01.10-20.17.00:830][808]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.17.02:379][808]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Wall00_fbx.fbx
+[2017.01.10-20.17.02:383][808]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.17.02:385][808]LogStaticMesh: Building static mesh MD_Cons_Wall00_fbx...
+[2017.01.10-20.17.02:388][808]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Wall00_fbx.MD_Cons_Wall00_fbx
+[2017.01.10-20.17.04:448][997]LogActorFactory: Actor Factory created MD_Cons_Wall00_fbx
+[2017.01.10-20.17.05:503][121]LogActorFactory: Actor Factory created MD_Cons_Wall00_fbx
+[2017.01.10-20.17.16:339][364]Cmd: TRANSACTION UNDO
+[2017.01.10-20.17.16:339][364]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.17.30:355][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.17.31:160][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWallFrame00_fbx)
+[2017.01.10-20.17.32:354][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx)
+[2017.01.10-20.17.34:747][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx2)
+[2017.01.10-20.17.39:995][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Wall00_fbx)
+[2017.01.10-20.18.06:215][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx)
+[2017.01.10-20.18.06:987][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx2)
+[2017.01.10-20.18.16:285][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.10-20.18.16:323][369]LogSavePackage: Save=31.27ms
+[2017.01.10-20.18.16:323][369]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeonA3F4D59845AE3FA9B68188919A656CA8.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.10-20.18.16:324][369]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.10-20.18.16:333][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.10-20.18.16:402][369]LogSavePackage: Save=66.39ms
+[2017.01.10-20.18.16:402][369]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltDataAF58C1A84447B1A24F8E2C865A455087.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.10-20.18.16:403][369]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.10-20.19.12:214][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx10)
+[2017.01.10-20.19.13:882][194]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx12)
+[2017.01.10-20.19.14:366][244]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx13)
+[2017.01.10-20.19.16:269][466]Cmd: TRANSACTION UNDO
+[2017.01.10-20.19.16:269][466]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.19.33:653][490]Cmd: TRANSACTION UNDO
+[2017.01.10-20.19.33:653][490]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.20.01:600][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx13)
+[2017.01.10-20.20.02:306][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx3)
+[2017.01.10-20.20.04:801][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx3)
+[2017.01.10-20.20.16:563][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx7)
+[2017.01.10-20.20.17:744][637]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx17)
+[2017.01.10-20.20.19:016][786]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx18)
+[2017.01.10-20.20.22:533][200]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx19)
+[2017.01.10-20.20.23:506][308]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx8)
+[2017.01.10-20.20.38:552][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx)
+[2017.01.10-20.20.45:210][866]Cmd: DELETE
+[2017.01.10-20.20.45:210][866]Cmd: ACTOR DELETE
+[2017.01.10-20.20.45:210][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.20.45:210][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.20.45:211][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.20.45:211][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.20.45:211][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.20.45:218][866]LogEditorActor: Deleted 5 Actors (0.008 secs)
+[2017.01.10-20.20.47:512][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx10)
+[2017.01.10-20.20.53:112][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx3)
+[2017.01.10-20.20.55:001][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.10-20.20.55:041][  3]LogSavePackage: Save=31.49ms
+[2017.01.10-20.20.55:041][  3]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon1B056D5949E3195BFA97F080DDFCE888.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.10-20.20.55:041][  3]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.10-20.20.55:050][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.10-20.20.55:118][  3]LogSavePackage: Save=65.69ms
+[2017.01.10-20.20.55:118][  3]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltData132076604E60E85BEFC5979B16DA3369.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.10-20.20.55:118][  3]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.10-20.20.55:742][ 77]MapCheck: New page: Map Check
+[2017.01.10-20.20.55:766][ 77]Cmd: MAP REBUILD ALLVISIBLE
+[2017.01.10-20.20.55:766][ 77]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.01.10-20.20.55:774][ 77]LightingResults: New page: Lighting Build - Jan 11, 2017, 2:20:55 AM
+[2017.01.10-20.20.55:779][ 77]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.01.10-20.20.55:780][ 77]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.01.10-20.20.55:780][ 77]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.01.10-20.20.55:780][ 77]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.01.10-20.20.55:780][ 77]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6092
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.01.10-20.21.00:884][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.01.10-20.21.00:958][ 77]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.01.10-20.21.00:958][ 77]MapCheck: New page: MetroDungeon - Jan 11, 2017, 2:21:00 AM
+[2017.01.10-20.21.00:958][ 77]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.01.10-20.21.01:019][ 77]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 60.947ms to complete.
+[2017.01.10-20.21.01:041][ 77]LogEditorBuildUtils: Build time 0:05
+[2017.01.10-20.21.03:008][201]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:008][201]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:149][211]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:181][214]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:457][231]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:457][231]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:611][245]LightingResults:Warning: Warning MD_Cons_Wall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:611][245]LightingResults: Info MD_Cons_Wall00_fbx Lightmap UV are overlapping by 5.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:666][249]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:695][251]LightingResults:Warning: Warning MD_Cons_Wall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:695][251]LightingResults: Info MD_Cons_Wall00_fbx Lightmap UV are overlapping by 5.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:695][251]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:851][265]LightingResults:Warning: Warning MD_Cons_BigWallFrame00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:862][266]LightingResults: Info MD_Cons_BigWallFrame00_fbx Lightmap UV are overlapping by 21.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:895][268]LightingResults:Warning: Warning MD_Cons_Wall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:931][271]LightingResults: Info MD_Cons_Wall00_fbx Lightmap UV are overlapping by 5.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.03:985][272]LightingResults:Warning: Warning MD_Cons_Wall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.03:985][272]LightingResults: Info MD_Cons_Wall00_fbx Lightmap UV are overlapping by 5.2%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:125][284]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:161][287]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:184][289]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:184][289]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:294][299]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:306][300]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:317][301]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:317][301]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:328][302]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:328][302]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:461][313]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:461][313]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:525][319]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:557][322]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:583][324]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:603][326]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:669][332]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:669][332]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:725][337]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:725][337]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:757][340]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:768][341]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:788][342]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:788][342]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:851][347]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:851][347]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.04:905][352]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.04:925][354]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:043][364]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:043][364]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:058][365]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:058][365]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:151][372]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:162][373]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:162][373]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:162][373]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:259][378]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:259][378]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:259][378]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:259][378]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:259][378]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:259][378]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:345][386]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:345][386]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:432][394]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:447][395]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:447][395]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:447][395]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:518][399]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:518][399]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:518][399]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:518][399]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:621][405]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:621][405]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:630][406]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:630][406]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:663][409]LightingResults:Warning: Warning MD_Cons_BaseStructure00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:684][411]LightingResults: Info MD_Cons_BaseStructure00_fbx Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:814][423]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:825][424]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:835][425]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:835][425]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:869][427]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:869][427]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:883][428]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:883][428]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:913][430]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.05:923][431]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.05:972][435]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.06:027][439]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.06:027][439]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.06:053][440]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.06:068][441]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.06:068][441]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.06:095][443]LightingResults:Warning: Warning MD_Cons_Platform00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.06:095][443]LightingResults: Info MD_Cons_Platform00_fbx Lightmap UV are overlapping by 26.7%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.06:246][457]LightingResults:Warning: Warning MD_Cons_BigWall00_fbx Object has overlapping UVs.
+[2017.01.10-20.21.06:246][457]LightingResults: Info MD_Cons_BigWall00_fbx Lightmap UV are overlapping by 11.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.01.10-20.21.06:274][460]Job is a success!
+[2017.01.10-20.21.06:993][461]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.01.10-20.21.06:993][461]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.01.10-20.21.06:993][461]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.01.10-20.21.06:993][461]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.01.10-20.21.07:107][461]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.01.10-20.21.07:107][461]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2017.01.10-20.21.07:123][461]Lightmass on OVERMIND: 5.51 sec total, 68 ms importing, 4 ms setup, 459 ms photons, 4.95 sec processing, 0 ms extra exporting [83/83 mappings]. Threads: 19.7 sec total, 10.9 sec processing.
+[2017.01.10-20.21.07:123][461]LogStaticLightingSystem: Illumination: 11.3 sec (631 ms encoding lightmaps, 111 ms encoding shadowmaps)
+[2017.01.10-20.21.07:123][461]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.01.10-20.21.07:123][461]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.01.10-20.21.07:884][461]DumpUnbuiltLightIteractions
+[2017.01.10-20.21.07:884][461]Lights with unbuilt interactions: 0
+[2017.01.10-20.21.07:884][461]
+[2017.01.10-20.21.07:884][461]Primitives with unbuilt interactions: 0
+[2017.01.10-20.21.07:896][462]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.01.10-20.21.07:896][462]MapCheck: New page: MetroDungeon - Jan 11, 2017, 2:21:07 AM
+[2017.01.10-20.21.07:948][462]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.481ms to complete.
+[2017.01.10-20.21.33:397][502]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.01.10-20.22.11:146][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx2)
+[2017.01.10-20.22.27:163][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.01.10-20.22.55:245][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx)
+[2017.01.10-20.22.57:721][532]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Wall00_fbx2)
+[2017.01.10-20.22.58:955][673]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Wall00_fbx4)
+[2017.01.10-20.22.59:597][747]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Wall00_fbx3)
+[2017.01.10-20.23.03:651][229]Cmd: DELETE
+[2017.01.10-20.23.03:651][229]Cmd: ACTOR DELETE
+[2017.01.10-20.23.03:651][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.23.03:652][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.23.03:652][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.23.03:652][229]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.23.03:658][229]LogEditorActor: Deleted 4 Actors (0.007 secs)
+[2017.01.10-20.23.25:972][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx5)
+[2017.01.10-20.23.29:963][355]Cmd: TRANSACTION UNDO
+[2017.01.10-20.23.29:963][355]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.23.32:162][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx8)
+[2017.01.10-20.25.47:867][364]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BigWall00_fbx.fbx]
+[2017.01.10-20.25.47:904][364]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BigWall00_fbx.fbx
+[2017.01.10-20.25.47:908][364]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.25.47:930][364]LogStaticMesh: Building static mesh MD_Cons_BigWall00_fbx...
+[2017.01.10-20.25.47:931][364]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_BigWall00_fbx.MD_Cons_BigWall00_fbx
+[2017.01.10-20.25.47:936][364]LogEditorFactories: -- imported successfully
+[2017.01.10-20.25.50:962][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx10)
+[2017.01.10-20.26.05:787][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx)
+[2017.01.10-20.26.24:214][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.10-20.26.24:252][428]LogSavePackage: Save=30.65ms
+[2017.01.10-20.26.24:252][428]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon6064E3C345E1193A4AA116B484306BCB.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.10-20.26.24:253][428]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.10-20.26.24:263][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.10-20.26.24:368][428]LogSavePackage: Save=102.73ms
+[2017.01.10-20.26.24:368][428]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltDataB65BF26F411A24618EE4E88F71B0B281.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.10-20.26.24:369][428]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.10-20.26.25:934][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWallFrame00_fbx)
+[2017.01.10-20.26.28:072][854]Cmd: DELETE
+[2017.01.10-20.26.28:072][854]Cmd: ACTOR DELETE
+[2017.01.10-20.26.28:073][854]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.26.28:079][854]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.01.10-20.26.29:217][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx12)
+[2017.01.10-20.26.34:288][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx12)
+[2017.01.10-20.26.44:523][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx5)
+[2017.01.10-20.26.47:626][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx9)
+[2017.01.10-20.26.51:428][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx10)
+[2017.01.10-20.26.53:867][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx9)
+[2017.01.10-20.27.05:063][210]Cmd: TRANSACTION UNDO
+[2017.01.10-20.27.05:063][210]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.27.05:400][238]Cmd: TRANSACTION UNDO
+[2017.01.10-20.27.05:400][238]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.27.05:763][271]Cmd: TRANSACTION UNDO
+[2017.01.10-20.27.05:763][271]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.27.06:164][314]Cmd: TRANSACTION UNDO
+[2017.01.10-20.27.06:164][314]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.27.11:585][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx22)
+[2017.01.10-20.27.18:558][767]Cmd: TRANSACTION UNDO
+[2017.01.10-20.27.18:558][767]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.10-20.27.20:487][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.28.35:024][872]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BaseStructure00_fbx.fbx]
+[2017.01.10-20.28.35:052][872]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BaseStructure00_fbx.fbx
+[2017.01.10-20.28.35:057][872]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.10-20.28.35:079][872]LogStaticMesh: Building static mesh MD_Cons_BaseStructure00_fbx...
+[2017.01.10-20.28.35:080][872]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_BaseStructure00_fbx.MD_Cons_BaseStructure00_fbx
+[2017.01.10-20.28.35:081][872]LogStaticMesh:Warning: MD_Cons_BaseStructure00_fbx has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.10-20.28.35:083][872]LogFbx:Warning: Warning MD_Cons_BaseStructure00_fbx has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.01.10-20.28.35:084][872]LogEditorFactories: -- imported successfully
+[2017.01.10-20.28.38:473][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx9)
+[2017.01.10-20.28.45:763][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:763][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:763][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:764][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:764][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:764][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.28.45:770][ 97]LogEditorActor: Deleted 6 Actors (0.008 secs)
+[2017.01.10-20.28.55:194][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx10)
+[2017.01.10-20.29.02:482][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx9)
+[2017.01.10-20.29.10:728][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.01.10-20.29.11:399][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx20)
+[2017.01.10-20.29.13:209][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx21)
+[2017.01.10-20.29.17:974][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx)
+[2017.01.10-20.29.22:403][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx10)
+[2017.01.10-20.29.29:594][163]Cmd: TRANSACTION UNDO
+[2017.01.10-20.29.29:594][163]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.29.33:321][582]Cmd: TRANSACTION UNDO
+[2017.01.10-20.29.33:322][582]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.29.42:670][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx16)
+[2017.01.10-20.29.47:761][177]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx15)
+[2017.01.10-20.29.48:684][278]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx14)
+[2017.01.10-20.29.59:430][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:430][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:431][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:431][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:431][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:431][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:432][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:432][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:432][551]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.29.59:438][551]LogEditorActor: Deleted 9 Actors (0.009 secs)
+[2017.01.10-20.30.01:056][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx24)
+[2017.01.10-20.30.04:879][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BigWall00_fbx10)
+[2017.01.10-20.30.05:683][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx12)
+[2017.01.10-20.30.16:075][407]Cmd: TRANSACTION UNDO
+[2017.01.10-20.30.16:075][407]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.31.39:780][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx9)
+[2017.01.10-20.31.40:761][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx20)
+[2017.01.10-20.31.41:233][456]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx21)
+[2017.01.10-20.31.42:184][567]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx22)
+[2017.01.10-20.31.42:875][647]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx10)
+[2017.01.10-20.32.00:541][697]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.10-20.32.06:784][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BaseStructure00_fbx10)
+[2017.01.10-20.32.11:819][  5]Cmd: TRANSACTION UNDO
+[2017.01.10-20.32.11:819][  5]LogEditorTransaction: Undo Move Actors
+[2017.01.10-20.32.18:705][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CeilingBeam00_fbx21)
+[2017.01.10-20.32.32:364][351]Cmd: DELETE
+[2017.01.10-20.32.32:364][351]Cmd: ACTOR DELETE
+[2017.01.10-20.32.32:365][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.32.32:365][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.32.32:366][351]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.10-20.32.32:372][351]LogEditorActor: Deleted 3 Actors (0.007 secs)
+[2017.01.10-20.32.40:278][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.10-20.32.40:316][296]LogSavePackage: Save=30.31ms
+[2017.01.10-20.32.40:316][296]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon19EAC5964496A56A9041EB9AAFFB54BC.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.10-20.32.40:317][296]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.10-20.32.40:327][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.10-20.32.40:446][296]LogSavePackage: Save=116.77ms
+[2017.01.10-20.32.40:446][296]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltData7F0F548E48136EDAA7B2B39C1F4CE2C1.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.10-20.32.40:447][296]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.10-20.32.44:039][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx.uasset" SILENT=true
+[2017.01.10-20.32.44:046][700]LogSavePackage: Save=7.37ms
+[2017.01.10-20.32.44:046][700]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_ConreteFloor00_fbx7A1527D542815D42E95AE9B0D14E3965.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx.uasset'
+[2017.01.10-20.32.44:047][700]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_ConreteFloor00_fbx.uasset
+[2017.01.10-20.32.44:061][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_BaseStructure00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BaseStructure00_fbx.uasset" SILENT=true
+[2017.01.10-20.32.44:071][700]LogSavePackage: Save=7.89ms
+[2017.01.10-20.32.44:071][700]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_BaseStructure00_fbx8EC64C1543C71F94F550C29D0E9889CB.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BaseStructure00_fbx.uasset'
+[2017.01.10-20.32.44:072][700]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BaseStructure00_fbx.uasset
+[2017.01.10-20.32.44:084][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_BigWall00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BigWall00_fbx.uasset" SILENT=true
+[2017.01.10-20.32.44:094][700]LogSavePackage: Save=7.59ms
+[2017.01.10-20.32.44:094][700]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_BigWall00_fbxA2DF7FB042FA3D9784A0528CE2533861.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BigWall00_fbx.uasset'
+[2017.01.10-20.32.44:095][700]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BigWall00_fbx.uasset
+[2017.01.10-20.32.53:056][715]Cmd: QUIT_EDITOR
+[2017.01.10-20.32.53:096][715]LogExit: Preparing to exit.
+[2017.01.10-20.32.53:465][715]LogExit: Editor shut down
+[2017.01.10-20.32.53:465][715]LogExit: Transaction tracking system shut down
+[2017.01.10-20.32.53:512][715]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.10-20.32.53:513][715]LogExit: Object subsystem successfully closed.
+[2017.01.10-20.32.53:533][715]LogD3D11RHI: Shutdown
+[2017.01.10-20.32.53:533][715]LogD3D11RHI: CleanupD3DDevice
+[2017.01.10-20.32.53:560][715]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.10-20.32.53:582][715]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.10-20.32.53:582][715]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62699BCD-4AB0-F3F2-01CE-5C93C5E3C170%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=695df47f4146c860d8098e818d10e830%7C53d085766f07496a9bf34dcc5d27aa54%7C403e18f4-5586-4356-94d0-76a3832769d4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (242)
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.01.10-20.32.53:609][715]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.01.10-20.32.53:610][715]LogDirectoryWatcher: A directory notification for 'C:/Program Files/UE4/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.01.10-20.32.53:610][715]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Collections/' was aborted.
+[2017.01.10-20.32.53:610][715]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Developers/User/Collections/' was aborted.
+[2017.01.10-20.32.53:610][715]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Saved/Collections/' was aborted.
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.01.10-20.32.53:610][715]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.01.10-20.32.53:611][715]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.01.10-20.32.53:737][715]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.01.10-20.32.53:791][715]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.01.10-20.32.53:842][715]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.01.10-20.32.53:843][715]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.01.10-20.32.53:843][715]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.01.10-20.32.53:843][715]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.01.10-20.32.53:843][715]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.01.10-20.32.53:844][715]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.01.10-20.32.53:844][715]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.10-20.32.53:945][715]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.10-20.32.54:327][715]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.10-20.32.54:327][715]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.10-20.32.54:327][715]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.10-20.32.54:327][715]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.10-20.32.54:329][715]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.10-20.32.54:330][715]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.10-20.32.54:330][715]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.10-20.32.54:330][715]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.10-20.32.54:330][715]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.10-20.32.54:330][715]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.10-20.32.54:332][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.10-20.32.54:332][715]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/' was aborted.
+[2017.01.10-20.32.54:332][715]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.10-20.32.54:332][715]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.10-20.32.54:427][715]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.10-20.32.54:514][715]LogDerivedDataCache: Shutdown
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.10-20.32.54:514][715]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.10-20.32.54:514][715]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.10-20.32.54:515][715]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.10-20.32.54:515][715]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.10-20.32.54:515][715]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.10-20.32.54:515][715]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.10-20.32.54:516][715]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.10-20.32.54:518][715]LogExit: Exiting.
+[2017.01.10-20.32.54:523][715]Log file closed, 01/10/17 23:32:54
