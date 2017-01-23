@@ -1,9 +1,9 @@
-﻿Log file open, 01/13/17 12:31:09
+﻿Log file open, 01/23/17 21:39:07
 LogInit:Display: Running engine for game: NoMiProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(342000152) SRandInit(342000152).
+LogInit:Display: RandInit(100511317) SRandInit(100511317).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.482994
+LogStats: Stats thread started at 0.069253
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/UE4/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/UE4/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/UE4/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -143,819 +143,588 @@ LogInit: Base directory: C:/Program Files/UE4/Epic Games/4.14/Engine/Binaries/Wi
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.01.13-09.31.10:076][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.13-09.31.10:076][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.01.13-09.31.10:084][  0]LogInit: Computer: OVERMIND
-[2017.01.13-09.31.10:084][  0]LogInit: User: User
-[2017.01.13-09.31.10:084][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.01.13-09.31.10:084][  0]LogInit: High frequency timer resolution =3.320341 MHz
-[2017.01.13-09.31.10:084][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.01.13-09.31.10:084][  0]LogMemory: Platform Memory Stats for Windows
-[2017.01.13-09.31.10:084][  0]LogMemory: Process Physical Memory: 264.19 MB used, 264.19 MB peak
-[2017.01.13-09.31.10:084][  0]LogMemory: Process Virtual Memory: 264.89 MB used, 264.89 MB peak
-[2017.01.13-09.31.10:084][  0]LogMemory: Physical Memory: 4351.44 MB used,  11967.08 MB free, 16318.52 MB total
-[2017.01.13-09.31.10:084][  0]LogMemory: Virtual Memory: 665.44 MB used,  11967.08 MB free, 8388608.00 MB total
-[2017.01.13-09.31.10:208][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
-[2017.01.13-09.31.11:004][  0]LogD3D11RHI: D3D11 adapters:
-[2017.01.13-09.31.11:012][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2017.01.13-09.31.11:012][  0]LogD3D11RHI:       3050/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.01.13-09.31.11:012][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.01.13-09.31.11:017][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.01.13-09.31.11:017][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2017.01.13-09.31.11:017][  0]LogWindows: EnumDisplayDevices:
-[2017.01.13-09.31.11:017][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2017.01.13-09.31.11:018][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2017.01.13-09.31.11:018][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.01.13-09.31.11:018][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.01.13-09.31.11:019][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.01.13-09.31.11:019][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2017.01.13-09.31.11:019][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
-[2017.01.13-09.31.11:019][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.01.13-09.31.11:020][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.01.13-09.31.11:020][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2017.01.13-09.31.11:020][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2017.01.13-09.31.11:020][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
-[2017.01.13-09.31.11:020][  0]LogD3D11RHI:      Driver Date: 9-16-2016
-[2017.01.13-09.31.11:020][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.01.13-09.31.11:026][  0]LogD3D11RHI: Async texture creation enabled
-[2017.01.13-09.31.11:048][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.01.13-09.31.11:052][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/UEProjects/NoMi/NoMiProject/Intermediate/Shaders/WorkingDirectory/2992/).
-[2017.01.13-09.31.11:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/F926605D408068D22FDFC0B4F229A8A0/'.
-[2017.01.13-09.31.11:053][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.01.13-09.31.12:580][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.01.13-09.31.12:627][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.01.13-09.31.12:675][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.01.13-09.31.12:725][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.01.13-09.31.12:776][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.01.13-09.31.12:826][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.01.13-09.31.12:875][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.01.13-09.31.12:923][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.01.13-09.31.12:964][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.01.13-09.31.13:013][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.01.13-09.31.13:061][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.01.13-09.31.13:109][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.01.13-09.31.13:157][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.01.13-09.31.13:205][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.01.13-09.31.13:251][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.01.13-09.31.13:352][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.01.13-09.31.13:352][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.01.13-09.31.13:387][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.01.13-09.31.13:467][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.01.13-09.31.13:493][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.01.13-09.31.13:543][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.01.13-09.31.13:592][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.01.13-09.31.13:643][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.01.13-09.31.13:694][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.01.13-09.31.13:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.01.13-09.31.14:037][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache: Loaded boot cache 0.16s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEProjects/NoMi/NoMiProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEProjects/NoMi/NoMiProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.01.13-09.31.14:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.01.13-09.31.14:211][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.01.13-09.31.14:224][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.01.13-09.31.14:751][  0]LogInit: Selected Device Profile: [Windows]
-[2017.01.13-09.31.14:756][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.01.13-09.31.14:984][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.01.13-09.31.15:030][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.01.13-09.31.15:077][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.01.13-09.31.15:077][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.01.13-09.31.15:077][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.01.13-09.31.15:748][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nomiproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1076914600
-[2017.01.13-09.31.15:804][  0]LogAssetRegistry: FAssetRegistry took 0.0231 seconds to start up
-[2017.01.13-09.31.15:840][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.020355 seconds
-[2017.01.13-09.31.15:845][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.01.13-09.31.15:845][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.01.13-09.31.15:845][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.01.13-09.31.15:887][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.01.13-09.31.16:619][  0]LogSlate: Using Freetype 2.6.0
-[2017.01.13-09.31.16:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.13-09.31.16:621][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.01.13-09.31.17:844][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.01.13-09.31.17:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.01.13-09.31.18:208][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.01.13-09.31.18:581][  0]SourceControl: Info Source control is disabled
-[2017.01.13-09.31.18:582][  0]SourceControl: Info Source control is disabled
-[2017.01.13-09.31.18:631][  0]SourceControl: Info Source control is disabled
-[2017.01.13-09.31.18:676][  0]SourceControl: Info Source control is disabled
-[2017.01.13-09.31.19:886][  0]LogEngine: Initializing Engine...
-[2017.01.13-09.31.19:887][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.01.13-09.31.20:125][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.01.13-09.31.20:151][  0]LogInit: XAudio2 using '2 - ASUS VG27A (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.01.13-09.31.20:198][  0]LogInit: FAudioDevice initialized.
-[2017.01.13-09.31.20:218][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.01.13-09.31.20:223][  0]LogInit: Texture streaming: Enabled
-[2017.01.13-09.31.20:372][  0]LogInit: Transaction tracking system initialized
-[2017.01.13-09.31.20:696][  0]BlueprintLog: New page: Editor Load
-[2017.01.13-09.31.21:495][  0]LocalizationService: Info Localization service is disabled
-[2017.01.13-09.31.22:098][  0]LogConsoleResponse:Display: 
-[2017.01.13-09.31.22:304][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/' took 0.01s
-[2017.01.13-09.31.22:304][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.01.13-09.31.22:304][  0]LogCook:Display: Mobile HDR setting 1
-[2017.01.13-09.31.23:204][  0]SourceControl: Info Source control is disabled
-[2017.01.13-09.31.23:205][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.13-09.31.23:207][  0]LightingResults: New page: Lighting Build
-[2017.01.13-09.31.23:246][  0]MapCheck: New page: Map Check
-[2017.01.13-09.31.23:246][  0]LightingResults: New page: Lighting Build
-[2017.01.13-09.31.23:448][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.01.13-09.31.23:450][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.01.13-09.31.23:466][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.13-09.31.23:471][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.13-09.31.23:511][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.177ms to complete.
-[2017.01.13-09.31.23:511][  0]LogFileHelpers: Loading map 'Template_Default' took 0.307
-[2017.01.13-09.31.23:683][  0]LogCollectionManager: Loaded 0 collections in 0.001228 seconds
-[2017.01.13-09.31.23:777][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Saved/Collections/' took 0.01s
-[2017.01.13-09.31.23:777][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/Developers/User/Collections/' took 0.01s
-[2017.01.13-09.31.23:777][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/Collections/' took 0.01s
-[2017.01.13-09.31.23:777][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.01.13-09.31.23:787][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2190 classes and 428 folders.
-[2017.01.13-09.31.23:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.01.13-09.31.23:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.01.13-09.31.23:833][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
-[2017.01.13-09.31.23:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.01.13-09.31.23:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.01.13-09.31.24:040][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.01.13-09.31.24:136][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.01.13-09.31.24:159][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.01.13-09.31.24:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.01.13-09.31.24:233][  0]LogLoad: (Engine Initialization) Total time: 16.39 seconds
-[2017.01.13-09.31.24:233][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.01.13-09.31.24:233][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.01.13-09.31.24:573][  0]LogOcInput: OculusInput pre-init called
-[2017.01.13-09.31.24:587][  0]LogAssetRegistry: Asset discovery search completed in 8.8053 seconds
-[2017.01.13-09.31.24:587][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.01.13-09.31.24:587][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2017.01.13-09.31.24:592][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.01.13-09.31.24:750][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
-[2017.01.13-09.31.24:825][  0]LogRenderer: Reallocating scene render targets to support 1300x856 NumSamples 1 (Frame:3).
-[2017.01.13-09.31.45:916][442]LogAIModule: Creating AISystem for world MetroDungeon
-[2017.01.13-09.31.45:936][442]Cmd: MAP LOAD FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.01.13-09.31.45:936][442]LightingResults: New page: Lighting Build
-[2017.01.13-09.31.45:936][442]LoadErrors: New page: Loading map: MetroDungeon.umap
-[2017.01.13-09.31.45:937][442]MapCheck: New page: Map Check
-[2017.01.13-09.31.45:937][442]LightingResults: New page: Lighting Build
-[2017.01.13-09.31.45:952][442]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.01.13-09.31.45:962][442]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.01.13-09.31.46:004][442]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.957ms to complete.
-[2017.01.13-09.31.46:004][442]LogFileHelpers: Loading map 'MetroDungeon' took 0.070
-[2017.01.13-09.44.09:750][120]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-09.44.09:849][120]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-09.44.09:858][120]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-09.44.09:881][120]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2017.01.13-09.44.09:885][120]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2017.01.13-09.44.09:888][120]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2017.01.13-09.44.09:892][120]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2017.01.13-09.44.11:264][182]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
-[2017.01.13-09.44.11:264][182]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
-[2017.01.13-09.44.11:264][182]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.01.13-09.44.11:264][182]MaterialEditorStats: Info Texture samplers: 8/16
-[2017.01.13-09.59.13:427][ 80]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BrokenCeiling01_fbx.fbx)
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: Material, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: Texture, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: Model, ItemCount : 1
-[2017.01.13-09.59.13:443][ 80]LogFbx: ItemName: Video, ItemCount : 1
-[2017.01.13-09.59.13:450][ 80]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BrokenCeiling01_fbx.fbx
-[2017.01.13-09.59.13:458][ 80]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-09.59.14:742][ 80]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_BrokenCeiling01_fbx.fbx
-[2017.01.13-09.59.14:747][ 80]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-09.59.14:753][ 80]LogStaticMesh: Building static mesh MD_Cons_BrokenCeiling01_fbx...
-[2017.01.13-09.59.14:773][ 80]LogStaticMesh: Built static mesh [0.02s] /Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx.MD_Cons_BrokenCeiling01_fbx
-[2017.01.13-09.59.17:860][214]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:21262).
-[2017.01.13-09.59.50:160][798]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.006
-[2017.01.13-09.59.50:161][798]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx] ([1] browsable assets)...
-[2017.01.13-09.59.50:173][798]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx.MD_Cons_BrokenCeiling01_fbx]
-[2017.01.13-09.59.50:173][798]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx]
-[2017.01.13-09.59.50:183][798]LogSavePackage: Save=8.69ms
-[2017.01.13-09.59.50:183][798]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_BrokenCeiling01_fbx_Auto168BAE2824D3E9C068076788BFF21C8C8.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx_Auto1.uasset'
-[2017.01.13-09.59.50:184][798]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx_Auto1.uasset
-[2017.01.13-09.59.50:184][798]LogFileHelpers: Auto-saving content packages took 0.024
-[2017.01.13-10.00.43:693][291]LogActorFactory: Actor Factory created MD_Cons_BrokenCeiling01_fbx
-[2017.01.13-10.00.45:006][423]LogActorFactory: Actor Factory created MD_Cons_BrokenCeiling01_fbx
-[2017.01.13-10.00.57:277][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx5)
-[2017.01.13-10.00.59:021][ 28]Cmd: DELETE
-[2017.01.13-10.00.59:021][ 28]Cmd: ACTOR DELETE
-[2017.01.13-10.00.59:023][ 28]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.00.59:047][ 28]LogEditorActor: Deleted 1 Actors (0.025 secs)
-[2017.01.13-10.00.59:868][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling00_fbx)
-[2017.01.13-10.01.04:357][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling01_fbx)
-[2017.01.13-10.01.13:544][650]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.01.15:000][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling01_fbx)
-[2017.01.13-10.01.20:537][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling00_fbx)
-[2017.01.13-10.01.26:577][209]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.01.29:560][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling01_fbx)
-[2017.01.13-10.01.32:977][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.01.34:829][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling01_fbx)
-[2017.01.13-10.01.37:466][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.01.43:324][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling00_fbx)
-[2017.01.13-10.01.47:184][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling00_fbx)
-[2017.01.13-10.01.51:153][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.01.57:672][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx6)
-[2017.01.13-10.02.02:495][723]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.02.07:959][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx)
-[2017.01.13-10.02.59:413][231]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2017.01.13-10.03.18:684][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx11)
-[2017.01.13-10.04.21:049][ 83]MapCheck: New page: Map Check
-[2017.01.13-10.04.21:070][ 83]Cmd: MAP REBUILD ALLVISIBLE
-[2017.01.13-10.04.21:070][ 83]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.01.13-10.04.21:124][ 83]LightingResults: New page: Lighting Build - Jan 13, 2017, 4:04:21 PM
-[2017.01.13-10.04.21:161][ 83]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.01.13-10.04.21:173][ 83]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.01.13-10.04.21:185][ 83]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.01.13-10.04.21:715][ 83]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.01.13-10.04.21:715][ 83]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2992
-[2017.01.13-10.04.28:270][ 83]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.01.13-10.04.28:271][ 83]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.01.13-10.04.28:271][ 83]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.01.13-10.04.28:271][ 83]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.01.13-10.04.28:271][ 83]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.01.13-10.04.28:271][ 83]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.01.13-10.04.28:383][ 83]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.01.13-10.04.28:383][ 83]MapCheck: New page: MetroDungeon - Jan 13, 2017, 4:04:28 PM
-[2017.01.13-10.04.28:384][ 83]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
-[2017.01.13-10.04.28:428][ 83]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 45.426ms to complete.
-[2017.01.13-10.04.28:451][ 83]LogEditorBuildUtils: Build time 0:07
-[2017.01.13-10.04.28:474][ 83]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MD_Atlas, compiling. 
-[2017.01.13-10.04.28:479][ 83]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MD_Atlas, compiling. 
-[2017.01.13-10.04.56:002][573]Job is a success!
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2017.01.13-10.04.57:610][574]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2017.01.13-10.04.58:069][574]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2017.01.13-10.04.58:069][574]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
-[2017.01.13-10.04.58:099][574]Lightmass on OVERMIND: 28.4 sec total, 5.17 sec importing, 10 ms setup, 1.10 sec photons, 22.1 sec processing, 0 ms extra exporting [165/165 mappings]. Threads: 1:28 min total, 59.0 sec processing.
-[2017.01.13-10.04.58:109][574]LogStaticLightingSystem: Illumination: 36.6 sec (1.10 sec encoding lightmaps, 458 ms encoding shadowmaps)
-[2017.01.13-10.04.58:109][574]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
-[2017.01.13-10.04.58:109][574]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.01.13-10.04.58:271][574]DumpUnbuiltLightIteractions
-[2017.01.13-10.04.58:271][574]Lights with unbuilt interactions: 0
-[2017.01.13-10.04.58:271][574]
-[2017.01.13-10.04.58:271][574]Primitives with unbuilt interactions: 0
-[2017.01.13-10.04.58:280][575]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.01.13-10.04.58:280][575]MapCheck: New page: MetroDungeon - Jan 13, 2017, 4:04:58 PM
-[2017.01.13-10.04.58:324][575]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.407ms to complete.
-[2017.01.13-10.09.55:325][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.01.13-10.09.55:472][578]LogSavePackage: Save=75.88ms
-[2017.01.13-10.09.55:472][578]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_Auto23F381C464DFE0D64FC6EE48AA43D6F81.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap'
-[2017.01.13-10.09.55:472][578]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap
-[2017.01.13-10.09.55:475][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
-[2017.01.13-10.09.55:528][578]LogSavePackage: Save=13.42ms
-[2017.01.13-10.09.55:528][578]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltData7275D90B4C57130DF04F8185FA18284B.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
-[2017.01.13-10.09.55:529][578]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
-[2017.01.13-10.09.55:529][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.212
-[2017.01.13-10.09.55:529][578]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.212
-[2017.01.13-10.14.48:893][708]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Platform00_fbx.fbx]
-[2017.01.13-10.14.48:953][708]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Platform00_fbx.fbx
-[2017.01.13-10.14.48:957][708]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-10.14.49:011][708]LogStaticMesh: Building static mesh MD_Cons_Platform00_fbx...
-[2017.01.13-10.14.49:014][708]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx.MD_Cons_Platform00_fbx
-[2017.01.13-10.14.49:020][708]LogEditorFactories: -- imported successfully
-[2017.01.13-10.15.44:435][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx33)
-[2017.01.13-10.15.56:706][666]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column24)
-[2017.01.13-10.15.57:412][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx34)
-[2017.01.13-10.16.02:795][945]Cmd: DELETE
-[2017.01.13-10.16.02:795][945]Cmd: ACTOR DELETE
-[2017.01.13-10.16.02:796][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:796][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:797][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:797][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:797][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:798][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:798][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:799][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:799][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:799][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:800][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:800][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:800][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:801][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:801][945]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.02:808][945]LogEditorActor: Deleted 15 Actors (0.012 secs)
-[2017.01.13-10.16.05:600][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx31)
-[2017.01.13-10.16.06:843][154]Cmd: DELETE
-[2017.01.13-10.16.06:843][154]Cmd: ACTOR DELETE
-[2017.01.13-10.16.06:844][154]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.06:863][154]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.06:863][154]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.06:870][154]LogEditorActor: Deleted 3 Actors (0.026 secs)
-[2017.01.13-10.16.09:870][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx20)
-[2017.01.13-10.16.15:750][594]Cmd: DELETE
-[2017.01.13-10.16.15:750][594]Cmd: ACTOR DELETE
-[2017.01.13-10.16.15:750][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:750][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:751][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:751][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:751][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:752][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:752][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:753][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:753][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:753][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:754][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:754][594]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.16.15:760][594]LogEditorActor: Deleted 12 Actors (0.011 secs)
-[2017.01.13-10.16.21:075][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx32)
-[2017.01.13-10.16.23:085][976]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MD_Cons_Wall00_fbx32)
-[2017.01.13-10.16.26:784][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx32)
-[2017.01.13-10.16.34:460][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column21)
-[2017.01.13-10.16.43:592][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx32)
-[2017.01.13-10.16.48:355][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column21)
-[2017.01.13-10.16.52:956][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling02_fbx24)
-[2017.01.13-10.16.58:690][863]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.17.03:252][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx24)
-[2017.01.13-10.17.38:021][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx58)
-[2017.01.13-10.17.49:866][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column20)
-[2017.01.13-10.17.50:548][317]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column19)
-[2017.01.13-10.17.51:616][362]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column18)
-[2017.01.13-10.17.53:465][444]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column25)
-[2017.01.13-10.17.54:561][491]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column24)
-[2017.01.13-10.17.55:853][548]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_Column23)
-[2017.01.13-10.18.08:647][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx3)
-[2017.01.13-10.18.14:693][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx19)
-[2017.01.13-10.18.30:881][134]Cmd: DELETE
-[2017.01.13-10.18.30:881][134]Cmd: ACTOR DELETE
-[2017.01.13-10.18.30:882][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:903][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:904][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:904][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:905][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:905][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:905][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:906][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:906][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:907][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:907][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:907][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:908][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:908][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:908][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:909][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:909][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:909][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:910][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:910][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:910][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:911][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:911][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:912][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:912][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:912][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:913][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:913][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:913][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:913][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:914][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:914][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:914][134]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.01.13-10.18.30:920][134]LogEditorActor: Deleted 33 Actors (0.039 secs)
-[2017.01.13-10.18.31:740][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx5)
-[2017.01.13-10.18.34:616][308]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MD_Cons_Wall00_fbx48)
-[2017.01.13-10.18.38:590][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx48)
-[2017.01.13-10.19.44:253][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column14)
-[2017.01.13-10.20.02:131][311]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2017.01.13-10.20.11:344][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_ConreteFloor00_fbx2)
-[2017.01.13-10.20.12:899][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx19)
-[2017.01.13-10.20.35:493][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall02_fbx)
-[2017.01.13-10.20.38:883][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx11)
-[2017.01.13-10.20.51:112][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall00_fbx11)
-[2017.01.13-10.21.08:308][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.13-10.21.08:398][793]LogSavePackage: Save=78.45ms
-[2017.01.13-10.21.08:398][793]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon6F8CBD844ADAD87BA0645583BB282D15.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
-[2017.01.13-10.21.08:399][793]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
-[2017.01.13-10.21.08:410][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
-[2017.01.13-10.21.08:620][793]LogSavePackage: Save=190.02ms
-[2017.01.13-10.21.08:620][793]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltDataE2BEE05A4EED504D1E0373B1E3249DCA.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
-[2017.01.13-10.21.08:624][793]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
-[2017.01.13-10.21.20:416][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall02_fbx)
-[2017.01.13-10.21.41:461][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx11)
-[2017.01.13-10.21.49:300][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall02_fbx)
-[2017.01.13-10.21.53:099][194]Cmd: TRANSACTION UNDO
-[2017.01.13-10.21.53:099][194]LogEditorTransaction: Undo Move Actors
-[2017.01.13-10.21.53:133][194]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.21.53:142][194]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-10.21.54:326][263]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
-[2017.01.13-10.21.54:326][263]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
-[2017.01.13-10.21.54:326][263]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.01.13-10.21.54:326][263]MaterialEditorStats: Info Texture samplers: 8/16
-[2017.01.13-10.22.12:640][910]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2017.01.13-10.22.46:171][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx3)
-[2017.01.13-10.22.50:008][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx3)
-[2017.01.13-10.23.05:041][823]Cmd: TRANSACTION UNDO
-[2017.01.13-10.23.05:041][823]LogEditorTransaction: Undo Clicking on Actors
-[2017.01.13-10.23.05:070][823]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.23.05:080][823]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-10.23.06:180][850]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
-[2017.01.13-10.23.06:180][850]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
-[2017.01.13-10.23.06:180][850]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.01.13-10.23.06:180][850]MaterialEditorStats: Info Texture samplers: 8/16
-[2017.01.13-10.23.09:486][971]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2017.01.13-10.23.56:002][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx2)
-[2017.01.13-10.24.04:338][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.13-10.24.04:424][972]LogSavePackage: Save=75.40ms
-[2017.01.13-10.24.04:424][972]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon2EBFEB40420811F3279ED0B40C3610D7.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
-[2017.01.13-10.24.04:425][972]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
-[2017.01.13-10.24.04:435][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
-[2017.01.13-10.24.04:627][972]LogSavePackage: Save=188.32ms
-[2017.01.13-10.24.04:627][972]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltDataB59496244EFA8E51ADF3F09E2DBFB0D7.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
-[2017.01.13-10.24.04:628][972]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
-[2017.01.13-10.24.05:000][989]MapCheck: New page: Map Check
-[2017.01.13-10.24.05:037][989]Cmd: MAP REBUILD ALLVISIBLE
-[2017.01.13-10.24.05:038][989]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.01.13-10.24.05:052][989]LightingResults: New page: Lighting Build - Jan 13, 2017, 4:24:05 PM
-[2017.01.13-10.24.05:057][989]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.01.13-10.24.05:057][989]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.01.13-10.24.05:057][989]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.01.13-10.24.05:058][989]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.01.13-10.24.05:058][989]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2992
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.01.13-10.24.10:163][989]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.01.13-10.24.10:231][989]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.01.13-10.24.10:231][989]MapCheck: New page: MetroDungeon - Jan 13, 2017, 4:24:10 PM
-[2017.01.13-10.24.10:232][989]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
-[2017.01.13-10.24.10:273][989]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 42.523ms to complete.
-[2017.01.13-10.24.10:295][989]LogEditorBuildUtils: Build time 0:05
-[2017.01.13-10.24.38:349][824]Job is a success!
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2017.01.13-10.24.39:699][825]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2017.01.13-10.24.40:159][825]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2017.01.13-10.24.40:160][825]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2017.01.13-10.24.40:178][825]Lightmass on OVERMIND: 29.4 sec total, 58 ms importing, 10 ms setup, 1.36 sec photons, 27.9 sec processing, 0 ms extra exporting [170/170 mappings]. Threads: 1:51 min total, 1:17 min processing.
-[2017.01.13-10.24.40:180][825]LogStaticLightingSystem: Illumination: 35.0 sec (1.16 sec encoding lightmaps, 459 ms encoding shadowmaps)
-[2017.01.13-10.24.40:180][825]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 6 textures
-[2017.01.13-10.24.40:180][825]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.01.13-10.24.41:179][825]DumpUnbuiltLightIteractions
-[2017.01.13-10.24.41:179][825]Lights with unbuilt interactions: 0
-[2017.01.13-10.24.41:179][825]
-[2017.01.13-10.24.41:179][825]Primitives with unbuilt interactions: 0
-[2017.01.13-10.24.41:188][826]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.01.13-10.24.41:188][826]MapCheck: New page: MetroDungeon - Jan 13, 2017, 4:24:41 PM
-[2017.01.13-10.24.41:234][826]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.107ms to complete.
-[2017.01.13-10.24.57:054][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_GroundPanel00_fbx4)
-[2017.01.13-10.34.07:616][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2017.01.13-10.34.07:697][696]LogSavePackage: Save=76.00ms
-[2017.01.13-10.34.07:697][696]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_Auto348821B95443014B7D89AD891D615CD50.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto3.umap'
-[2017.01.13-10.34.07:697][696]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto3.umap
-[2017.01.13-10.34.07:699][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
-[2017.01.13-10.34.07:744][696]LogSavePackage: Save=38.22ms
-[2017.01.13-10.34.07:744][696]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltDataB38416AE447165EBF50568BA15909624.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
-[2017.01.13-10.34.07:745][696]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
-[2017.01.13-10.34.07:745][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.136
-[2017.01.13-10.34.07:745][696]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
-[2017.01.13-10.34.07:746][696]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx] ([1] browsable assets)...
-[2017.01.13-10.34.07:771][696]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx.MD_Cons_Platform00_fbx]
-[2017.01.13-10.34.07:771][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx]
-[2017.01.13-10.34.07:783][696]LogSavePackage: Save=7.38ms
-[2017.01.13-10.34.07:783][696]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Platform00_fbx_Auto3A05716F34730592BBCE896AD6CDD427F.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx_Auto3.uasset'
-[2017.01.13-10.34.07:784][696]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx_Auto3.uasset
-[2017.01.13-10.34.07:784][696]LogFileHelpers: Auto-saving content packages took 0.038
-[2017.01.13-10.42.38:661][275]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Column01.fbx)
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: Geometry, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: Material, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: Texture, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: Model, ItemCount : 1
-[2017.01.13-10.42.38:664][275]LogFbx: ItemName: Video, ItemCount : 1
-[2017.01.13-10.42.38:667][275]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Column01.fbx
-[2017.01.13-10.42.38:672][275]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-10.42.40:291][275]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Column01.fbx
-[2017.01.13-10.42.40:296][275]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-10.42.40:298][275]LogStaticMesh: Building static mesh MD_Cons_Column01...
-[2017.01.13-10.42.40:305][275]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_Column01.MD_Cons_Column01
-[2017.01.13-10.42.51:498][881]Cmd: SELECT NONE
-[2017.01.13-10.44.08:391][179]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.006
-[2017.01.13-10.44.08:392][179]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_Column01] ([1] browsable assets)...
-[2017.01.13-10.44.08:404][179]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_Column01.MD_Cons_Column01]
-[2017.01.13-10.44.08:404][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_Column01]
-[2017.01.13-10.44.08:413][179]LogSavePackage: Save=8.11ms
-[2017.01.13-10.44.08:413][179]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Column01_Auto4E027197140B873E2FF545299655BBAF4.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Column01_Auto4.uasset'
-[2017.01.13-10.44.08:414][179]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Column01_Auto4.uasset
-[2017.01.13-10.44.08:414][179]LogFileHelpers: Auto-saving content packages took 0.022
-[2017.01.13-10.44.18:237][430]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Column01.fbx]
-[2017.01.13-10.44.18:265][430]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Column01.fbx
-[2017.01.13-10.44.18:270][430]LogFbx: FBX Scene Loaded Succesfully
-[2017.01.13-10.44.18:308][430]LogStaticMesh: Building static mesh MD_Cons_Column01...
-[2017.01.13-10.44.18:315][430]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_Column01.MD_Cons_Column01
-[2017.01.13-10.44.18:319][430]LogEditorFactories: -- imported successfully
-[2017.01.13-10.44.24:375][687]LogActorFactory: Actor Factory created MD_Cons_Column01
-[2017.01.13-10.44.26:522][886]LogActorFactory: Actor Factory created MD_Cons_Column01
-[2017.01.13-10.44.26:876][897]Cmd: TRANSACTION UNDO
-[2017.01.13-10.44.26:876][897]LogEditorTransaction: Undo Create Actors
-[2017.01.13-10.44.26:909][897]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.44.26:918][897]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-10.44.28:232][989]LogActorFactory: Actor Factory created MD_Cons_Column01
-[2017.01.13-10.44.28:683][ 31]LogActorFactory: Actor Factory created MD_Cons_Column01
-[2017.01.13-10.44.28:697][ 31]MaterialEditorStats: Info Base pass shader with static lighting: 75 instructions
-[2017.01.13-10.44.28:697][ 31]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
-[2017.01.13-10.44.28:697][ 31]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.01.13-10.44.28:697][ 31]MaterialEditorStats: Info Texture samplers: 8/16
-[2017.01.13-10.44.52:962][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Platform00_fbx11)
-[2017.01.13-10.44.56:419][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall02_fbx)
-[2017.01.13-10.44.57:691][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column2)
-[2017.01.13-10.44.58:511][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Column2)
-[2017.01.13-10.44.59:125][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Wall02_fbx2)
-[2017.01.13-10.49.39:670][479]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.49.39:690][479]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-10.49.39:714][479]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.49.39:742][479]LogMaterial: Missing cached shader map for material MD_ConcreteMaterial, compiling. 
-[2017.01.13-10.49.39:758][479]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2017.01.13-10.49.41:273][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx.uasset" SILENT=true
-[2017.01.13-10.49.41:282][479]LogSavePackage: Save=7.98ms
-[2017.01.13-10.49.41:282][479]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_BrokenCeiling01_fbxD9B12AB6421981BCB7800898C20AB87E.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx.uasset'
-[2017.01.13-10.49.41:283][479]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_BrokenCeiling01_fbx.uasset
-[2017.01.13-10.49.41:299][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_Column01" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Column01.uasset" SILENT=true
-[2017.01.13-10.49.41:309][479]LogSavePackage: Save=8.48ms
-[2017.01.13-10.49.41:309][479]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Column017ADD56D649ED52C355D519BDD2A03C2E.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Column01.uasset'
-[2017.01.13-10.49.41:310][479]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Column01.uasset
-[2017.01.13-10.49.41:313][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_Platform00_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset" SILENT=true
-[2017.01.13-10.49.41:324][479]LogSavePackage: Save=4.79ms
-[2017.01.13-10.49.41:324][479]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Platform00_fbxC83F216F4007B73EE6BD08BB1C0A740C.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset'
-[2017.01.13-10.49.41:325][479]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_Platform00_fbx.uasset
-[2017.01.13-10.49.41:949][479]LogSavePackage: Save=10.46ms
-[2017.01.13-10.49.41:949][479]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_ConcreteMaterialDCCE91E54D340A120054899F08668352.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Materials/MD_ConcreteMaterial.uasset'
-[2017.01.13-10.49.41:950][479]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Materials/MD_ConcreteMaterial.uasset
-[2017.01.13-10.49.42:016][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.01.13-10.49.42:105][479]LogSavePackage: Save=76.27ms
-[2017.01.13-10.49.42:105][479]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon06248B474E6C5B3B0B2DF0BE265895C0.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
-[2017.01.13-10.49.42:106][479]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
-[2017.01.13-10.49.42:115][479]LogFileHelpers: Saving map 'MetroDungeon' took 0.164
-[2017.01.13-10.49.42:609][480]Cmd: QUIT_EDITOR
-[2017.01.13-10.49.42:650][480]LogExit: Preparing to exit.
-[2017.01.13-10.49.43:122][480]LogExit: Editor shut down
-[2017.01.13-10.49.43:122][480]LogExit: Transaction tracking system shut down
-[2017.01.13-10.49.43:180][480]LogObj: Freed 0b from 0 cluster array pools.
-[2017.01.13-10.49.43:180][480]LogExit: Object subsystem successfully closed.
-[2017.01.13-10.49.43:194][480]LogD3D11RHI: Shutdown
-[2017.01.13-10.49.43:194][480]LogD3D11RHI: CleanupD3DDevice
-[2017.01.13-10.49.43:230][480]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.01.13-10.49.43:252][480]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.01.13-10.49.43:252][480]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73943251-49CF-3E6C-3C37-06932CD69696%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=695df47f4146c860d8098e818d10e830%7C53d085766f07496a9bf34dcc5d27aa54%7C403e18f4-5586-4356-94d0-76a3832769d4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (244)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module MaterialEditor (242)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
-[2017.01.13-10.49.43:266][480]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
-[2017.01.13-10.49.43:266][480]LogDirectoryWatcher: A directory notification for 'C:/Program Files/UE4/Epic Games/4.14/FeaturePacks/' was aborted.
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
-[2017.01.13-10.49.43:267][480]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Collections/' was aborted.
-[2017.01.13-10.49.43:267][480]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Developers/User/Collections/' was aborted.
-[2017.01.13-10.49.43:267][480]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Saved/Collections/' was aborted.
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module BspMode (226)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
-[2017.01.13-10.49.43:267][480]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module Media (215)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module SessionServices (208)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
-[2017.01.13-10.49.43:268][480]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
-[2017.01.13-10.49.43:269][480]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
-[2017.01.13-10.49.43:846][480]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
-[2017.01.13-10.49.43:846][480]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
-[2017.01.13-10.49.43:846][480]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
-[2017.01.13-10.49.43:846][480]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
-[2017.01.13-10.49.43:846][480]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module MergeActors (193)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module SizeMap (192)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module TreeMap (191)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
-[2017.01.13-10.49.43:848][480]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module XmlParser (183)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module Blutility (182)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
-[2017.01.13-10.49.43:849][480]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
-[2017.01.13-10.49.43:850][480]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
-[2017.01.13-10.49.43:850][480]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
-[2017.01.13-10.49.43:851][480]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
-[2017.01.13-10.49.43:851][480]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
-[2017.01.13-10.49.43:851][480]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
-[2017.01.13-10.49.43:894][480]LogModuleManager: Shutting down and abandoning module AutomationController (172)
-[2017.01.13-10.49.43:894][480]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
-[2017.01.13-10.49.43:894][480]LogModuleManager: Shutting down and abandoning module Layers (170)
-[2017.01.13-10.49.43:895][480]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
-[2017.01.13-10.49.43:895][480]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
-[2017.01.13-10.49.43:895][480]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
-[2017.01.13-10.49.43:895][480]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
-[2017.01.13-10.49.43:895][480]LogModuleManager: Shutting down and abandoning module Persona (165)
-[2017.01.13-10.49.43:896][480]LogModuleManager: Shutting down and abandoning module Kismet (164)
-[2017.01.13-10.49.43:896][480]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
-[2017.01.13-10.49.43:896][480]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
-[2017.01.13-10.49.43:896][480]LogModuleManager: Shutting down and abandoning module Toolbox (161)
-[2017.01.13-10.49.43:896][480]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
-[2017.01.13-10.49.43:897][480]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
-[2017.01.13-10.49.43:897][480]LogModuleManager: Shutting down and abandoning module OutputLog (158)
-[2017.01.13-10.49.43:897][480]LogModuleManager: Shutting down and abandoning module GammaUI (157)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module Documentation (156)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module Niagara (155)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module PortalServices (152)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module AIModule (147)
-[2017.01.13-10.49.43:898][480]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module SteamVR (142)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module CableComponent (135)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
-[2017.01.13-10.49.43:936][480]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
-[2017.01.13-10.49.43:937][480]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module SourceControl (115)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module HotReload (108)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module MainFrame (107)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
-[2017.01.13-10.49.43:938][480]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
-[2017.01.13-10.49.43:939][480]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
-[2017.01.13-10.49.43:939][480]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
-[2017.01.13-10.49.44:040][480]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
-[2017.01.13-10.49.44:140][480]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
-[2017.01.13-10.49.44:140][480]LogModuleManager: Shutting down and abandoning module Paper2D (100)
-[2017.01.13-10.49.44:140][480]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
-[2017.01.13-10.49.44:140][480]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module VREditor (94)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2017.01.13-10.49.44:142][480]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module Sequencer (89)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module MessageLog (87)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module AssetTools (86)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
-[2017.01.13-10.49.44:143][480]LogModuleManager: Shutting down and abandoning module UMG (84)
-[2017.01.13-10.49.44:144][480]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
-[2017.01.13-10.49.44:144][480]LogModuleManager: Shutting down and abandoning module Slate (82)
-[2017.01.13-10.49.44:144][480]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module Networking (76)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module Core (75)
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
-[2017.01.13-10.49.44:146][480]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.01.13-10.49.44:146][480]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/' was aborted.
-[2017.01.13-10.49.44:146][480]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.01.13-10.49.44:146][480]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
-[2017.01.13-10.49.44:243][480]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
-[2017.01.13-10.49.44:306][480]LogDerivedDataCache: Shutdown
-[2017.01.13-10.49.44:306][480]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
-[2017.01.13-10.49.44:306][480]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
-[2017.01.13-10.49.44:306][480]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
-[2017.01.13-10.49.44:306][480]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Messaging (45)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
-[2017.01.13-10.49.44:307][480]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2017.01.13-10.49.44:307][480]LogOnline:Display: Unloading online subsystem: NULL
-[2017.01.13-10.49.44:308][480]LogModuleManager: Shutting down and abandoning module SSL (17)
-[2017.01.13-10.49.44:309][480]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2017.01.13-10.49.44:309][480]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2017.01.13-10.49.44:310][480]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.01.13-10.49.44:310][480]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.01.13-10.49.44:310][480]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.01.13-10.49.44:310][480]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.01.13-10.49.44:311][480]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.01.13-10.49.44:311][480]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.01.13-10.49.44:311][480]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.01.13-10.49.44:312][480]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.01.13-10.49.44:313][480]LogExit: Exiting.
-[2017.01.13-10.49.44:318][480]Log file closed, 01/13/17 13:49:44
+[2017.01.23-18.39.08:207][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.23-18.39.08:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.23-18.39.08:217][  0]LogInit: Computer: OVERMIND
+[2017.01.23-18.39.08:217][  0]LogInit: User: User
+[2017.01.23-18.39.08:217][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.23-18.39.08:217][  0]LogInit: High frequency timer resolution =3.320361 MHz
+[2017.01.23-18.39.08:218][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.01.23-18.39.08:218][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.23-18.39.08:218][  0]LogMemory: Process Physical Memory: 264.20 MB used, 264.20 MB peak
+[2017.01.23-18.39.08:218][  0]LogMemory: Process Virtual Memory: 264.88 MB used, 264.88 MB peak
+[2017.01.23-18.39.08:218][  0]LogMemory: Physical Memory: 3879.14 MB used,  12439.38 MB free, 16318.52 MB total
+[2017.01.23-18.39.08:218][  0]LogMemory: Virtual Memory: 665.44 MB used,  12439.38 MB free, 8388608.00 MB total
+[2017.01.23-18.39.08:249][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.23-18.39.08:814][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.23-18.39.08:821][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.01.23-18.39.08:821][  0]LogD3D11RHI:       3050/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2017.01.23-18.39.08:821][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.23-18.39.08:824][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.23-18.39.08:824][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.23-18.39.08:824][  0]LogWindows: EnumDisplayDevices:
+[2017.01.23-18.39.08:825][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.01.23-18.39.08:825][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2017.01.23-18.39.08:825][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.01.23-18.39.08:826][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.01.23-18.39.08:826][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.01.23-18.39.08:826][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.01.23-18.39.08:827][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.01.23-18.39.08:827][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.01.23-18.39.08:827][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.01.23-18.39.08:827][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.01.23-18.39.08:827][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.01.23-18.39.08:827][  0]LogD3D11RHI:   Driver Version: Crimson 16.9.2 (internal:21.19.137.1, unified:21.19.137.1)
+[2017.01.23-18.39.08:827][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.01.23-18.39.08:827][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.23-18.39.08:833][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.23-18.39.08:841][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.01.23-18.39.08:841][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/UEProjects/NoMi/NoMiProject/Intermediate/Shaders/WorkingDirectory/5720/).
+[2017.01.23-18.39.08:841][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/E39CA83E45DD6BBA7E5B2D9783CFC8D0/'.
+[2017.01.23-18.39.08:841][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.23-18.39.09:708][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.23-18.39.09:753][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.23-18.39.09:799][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.23-18.39.09:846][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.23-18.39.09:892][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.23-18.39.09:938][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.23-18.39.09:984][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.23-18.39.10:031][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.23-18.39.10:069][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.23-18.39.10:114][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.23-18.39.10:158][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.23-18.39.10:204][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.23-18.39.10:249][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.23-18.39.10:294][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.23-18.39.10:340][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.23-18.39.10:431][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.23-18.39.10:431][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.23-18.39.10:464][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.23-18.39.10:536][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.23-18.39.10:561][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.23-18.39.10:606][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.23-18.39.10:652][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.23-18.39.10:698][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.23-18.39.10:743][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.23-18.39.10:743][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.23-18.39.11:036][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.23-18.39.11:079][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.23-18.39.11:080][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.23-18.39.11:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UEProjects/NoMi/NoMiProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.23-18.39.11:080][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.23-18.39.11:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UEProjects/NoMi/NoMiProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.23-18.39.11:080][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.23-18.39.11:092][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.23-18.39.11:104][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.23-18.39.11:263][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.23-18.39.11:265][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.23-18.39.11:435][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.23-18.39.11:472][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.23-18.39.11:513][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.23-18.39.11:513][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.23-18.39.11:513][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.23-18.39.11:917][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: nomiproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1076914600
+[2017.01.23-18.39.11:963][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.01.23-18.39.12:007][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.030673 seconds
+[2017.01.23-18.39.12:012][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.23-18.39.12:012][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.01.23-18.39.12:012][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.23-18.39.12:053][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.23-18.39.12:677][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.23-18.39.12:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.23-18.39.12:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.23-18.39.13:388][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.23-18.39.13:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.23-18.39.13:686][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.23-18.39.14:085][  0]SourceControl: Info Source control is disabled
+[2017.01.23-18.39.14:086][  0]SourceControl: Info Source control is disabled
+[2017.01.23-18.39.14:202][  0]SourceControl: Info Source control is disabled
+[2017.01.23-18.39.14:305][  0]SourceControl: Info Source control is disabled
+[2017.01.23-18.39.15:593][  0]LogEngine: Initializing Engine...
+[2017.01.23-18.39.15:594][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.23-18.39.15:806][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.23-18.39.15:828][  0]LogInit: XAudio2 using '2 - ASUS VG27A (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.01.23-18.39.15:836][  0]LogInit: FAudioDevice initialized.
+[2017.01.23-18.39.15:859][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/User/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.23-18.39.15:862][  0]LogInit: Texture streaming: Enabled
+[2017.01.23-18.39.16:011][  0]LogInit: Transaction tracking system initialized
+[2017.01.23-18.39.16:309][  0]BlueprintLog: New page: Editor Load
+[2017.01.23-18.39.17:028][  0]LocalizationService: Info Localization service is disabled
+[2017.01.23-18.39.17:576][  0]LogConsoleResponse:Display: 
+[2017.01.23-18.39.17:697][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.23-18.39.17:697][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.23-18.39.17:951][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/' took 0.01s
+[2017.01.23-18.39.18:512][  0]SourceControl: Info Source control is disabled
+[2017.01.23-18.39.18:513][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.23-18.39.18:513][  0]LightingResults: New page: Lighting Build
+[2017.01.23-18.39.18:547][  0]MapCheck: New page: Map Check
+[2017.01.23-18.39.18:547][  0]LightingResults: New page: Lighting Build
+[2017.01.23-18.39.18:711][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.01.23-18.39.18:711][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.01.23-18.39.18:715][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.23-18.39.18:719][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.23-18.39.18:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.492ms to complete.
+[2017.01.23-18.39.18:760][  0]LogFileHelpers: Loading map 'Template_Default' took 0.248
+[2017.01.23-18.39.18:894][  0]LogCollectionManager: Loaded 0 collections in 0.001197 seconds
+[2017.01.23-18.39.18:973][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Saved/Collections/' took 0.01s
+[2017.01.23-18.39.18:973][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/Developers/User/Collections/' took 0.01s
+[2017.01.23-18.39.18:973][  0]LogFileCache: Scanning file cache for directory 'D:/UEProjects/NoMi/NoMiProject/Content/Collections/' took 0.01s
+[2017.01.23-18.39.18:973][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.01.23-18.39.18:980][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2190 classes and 428 folders.
+[2017.01.23-18.39.19:016][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.23-18.39.19:016][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.23-18.39.19:017][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.01.23-18.39.19:067][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.23-18.39.19:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.01.23-18.39.19:143][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.23-18.39.19:212][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.23-18.39.19:231][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.23-18.39.19:291][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.01.23-18.39.19:291][  0]LogLoad: (Engine Initialization) Total time: 12.53 seconds
+[2017.01.23-18.39.19:291][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.01.23-18.39.19:291][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.23-18.39.19:304][  0]LogOcInput: OculusInput pre-init called
+[2017.01.23-18.39.19:320][  0]LogAssetRegistry: Asset discovery search completed in 7.3782 seconds
+[2017.01.23-18.39.19:320][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.01.23-18.39.19:320][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2017.01.23-18.39.19:322][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.23-18.39.19:465][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.01.23-18.39.19:538][  0]LogRenderer: Reallocating scene render targets to support 1300x856 NumSamples 1 (Frame:3).
+[2017.01.23-18.39.27:269][606]LogAIModule: Creating AISystem for world MetroDungeon
+[2017.01.23-18.39.27:290][606]Cmd: MAP LOAD FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.23-18.39.27:290][606]LightingResults: New page: Lighting Build
+[2017.01.23-18.39.27:290][606]LoadErrors: New page: Loading map: MetroDungeon.umap
+[2017.01.23-18.39.27:291][606]MapCheck: New page: Map Check
+[2017.01.23-18.39.27:291][606]LightingResults: New page: Lighting Build
+[2017.01.23-18.39.27:303][606]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.23-18.39.27:314][606]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.23-18.39.27:354][606]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.847ms to complete.
+[2017.01.23-18.39.27:354][606]LogFileHelpers: Loading map 'MetroDungeon' took 0.066
+[2017.01.23-18.40.08:941][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_BrokenCeiling01_fbx)
+[2017.01.23-18.41.49:653][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx)
+[2017.01.23-18.42.01:130][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx2)
+[2017.01.23-18.42.11:704][384]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.01.23-18.49.27:137][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.23-18.49.27:273][793]LogSavePackage: Save=97.79ms
+[2017.01.23-18.49.27:273][793]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_Auto14CD007D140E0B1CAF755AFBE55F8192D.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap'
+[2017.01.23-18.49.27:273][793]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto1.umap
+[2017.01.23-18.49.27:274][793]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.144
+[2017.01.23-18.49.27:274][793]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2017.01.23-19.32.18:600][643]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_RCeiling00_fbx.fbx]
+[2017.01.23-19.32.18:651][643]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_RCeiling00_fbx.fbx
+[2017.01.23-19.32.18:658][643]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.32.18:684][643]LogStaticMesh: Building static mesh MD_Cons_RCeiling00_fbx...
+[2017.01.23-19.32.18:692][643]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx.MD_Cons_RCeiling00_fbx
+[2017.01.23-19.32.18:704][643]LogEditorFactories: -- imported successfully
+[2017.01.23-19.32.22:333][988]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_SCeiling00_fbx.fbx]
+[2017.01.23-19.32.22:371][988]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_SCeiling00_fbx.fbx
+[2017.01.23-19.32.22:375][988]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.32.22:405][988]LogStaticMesh: Building static mesh MD_Cons_SCeiling00_fbx...
+[2017.01.23-19.32.22:408][988]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx.MD_Cons_SCeiling00_fbx
+[2017.01.23-19.32.22:412][988]LogEditorFactories: -- imported successfully
+[2017.01.23-19.32.35:726][791]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling01_fbx.fbx]
+[2017.01.23-19.32.35:759][791]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling01_fbx.fbx
+[2017.01.23-19.32.35:763][791]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.32.35:785][791]LogStaticMesh: Building static mesh MD_Cons_Ceiling01_fbx...
+[2017.01.23-19.32.35:794][791]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx.MD_Cons_Ceiling01_fbx
+[2017.01.23-19.32.35:800][791]LogEditorFactories: -- imported successfully
+[2017.01.23-19.32.39:611][160]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling02_fbx.fbx]
+[2017.01.23-19.32.39:662][160]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling02_fbx.fbx
+[2017.01.23-19.32.39:666][160]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.32.39:689][160]LogStaticMesh: Building static mesh MD_Cons_Ceiling02_fbx...
+[2017.01.23-19.32.39:692][160]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx.MD_Cons_Ceiling02_fbx
+[2017.01.23-19.32.39:700][160]LogEditorFactories: -- imported successfully
+[2017.01.23-19.32.45:195][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx3)
+[2017.01.23-19.32.57:202][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx)
+[2017.01.23-19.33.02:273][558]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.33.02:286][558]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.33.02:291][558]LogEditorActor: Deleted 2 Actors (0.020 secs)
+[2017.01.23-19.33.08:092][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx)
+[2017.01.23-19.33.11:889][155]LogActorFactory: Actor Factory created MD_Cons_Ceiling01_fbx
+[2017.01.23-19.33.13:594][341]LogActorFactory: Actor Factory created MD_Cons_Ceiling01_fbx
+[2017.01.23-19.33.15:737][484]Cmd: DELETE
+[2017.01.23-19.33.15:737][484]Cmd: ACTOR DELETE
+[2017.01.23-19.33.15:740][484]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.33.15:755][484]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.01.23-19.33.22:586][899]LogActorFactory: Actor Factory created MD_Cons_Ceiling00_fbx
+[2017.01.23-19.33.23:719][ 20]LogActorFactory: Actor Factory created MD_Cons_Ceiling00_fbx
+[2017.01.23-19.33.24:965][101]Cmd: DELETE
+[2017.01.23-19.33.24:965][101]Cmd: ACTOR DELETE
+[2017.01.23-19.33.24:966][101]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.33.24:987][101]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.01.23-19.34.13:876][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.01.23-19.34.13:958][ 79]LogSavePackage: Save=75.73ms
+[2017.01.23-19.34.13:958][ 79]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_Auto24226ED594A4BCC95700D7FB6D9654291.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap'
+[2017.01.23-19.34.13:958][ 79]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Scenes/MetroDungeon_Auto2.umap
+[2017.01.23-19.34.13:959][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MetroDungeon' took 0.089
+[2017.01.23-19.34.13:959][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.089
+[2017.01.23-19.34.13:960][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx] ([1] browsable assets)...
+[2017.01.23-19.34.13:991][ 79]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx.MD_Cons_Ceiling01_fbx]
+[2017.01.23-19.34.13:991][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx]
+[2017.01.23-19.34.14:003][ 79]LogSavePackage: Save=8.43ms
+[2017.01.23-19.34.14:003][ 79]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Ceiling01_fbx_Auto23E6D5909461B7D89666EA6A05252E34B.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx_Auto2.uasset'
+[2017.01.23-19.34.14:004][ 79]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx_Auto2.uasset
+[2017.01.23-19.34.14:004][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx] ([1] browsable assets)...
+[2017.01.23-19.34.14:020][ 79]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx.MD_Cons_Ceiling02_fbx]
+[2017.01.23-19.34.14:020][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx]
+[2017.01.23-19.34.14:032][ 79]LogSavePackage: Save=7.27ms
+[2017.01.23-19.34.14:032][ 79]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_Ceiling02_fbx_Auto23B92F66D433244F0462A0A91BD77B992.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx_Auto2.uasset'
+[2017.01.23-19.34.14:032][ 79]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx_Auto2.uasset
+[2017.01.23-19.34.14:032][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx] ([1] browsable assets)...
+[2017.01.23-19.34.14:057][ 79]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx.MD_Cons_RCeiling00_fbx]
+[2017.01.23-19.34.14:057][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx]
+[2017.01.23-19.34.14:069][ 79]LogSavePackage: Save=7.75ms
+[2017.01.23-19.34.14:069][ 79]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_RCeiling00_fbx_Auto2C16765B641946EA9E73752B502853338.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx_Auto2.uasset'
+[2017.01.23-19.34.14:070][ 79]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_RCeiling00_fbx_Auto2.uasset
+[2017.01.23-19.34.14:070][ 79]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx] ([1] browsable assets)...
+[2017.01.23-19.34.14:085][ 79]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx.MD_Cons_SCeiling00_fbx]
+[2017.01.23-19.34.14:085][ 79]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx]
+[2017.01.23-19.34.14:097][ 79]LogSavePackage: Save=7.38ms
+[2017.01.23-19.34.14:097][ 79]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_SCeiling00_fbx_Auto2640B2EDC4C5303B115049BB4B0E8FB36.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx_Auto2.uasset'
+[2017.01.23-19.34.14:097][ 79]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Saved/Autosaves/Game/Resources/MetroDungeon/MD_Cons_SCeiling00_fbx_Auto2.uasset
+[2017.01.23-19.34.14:097][ 79]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.01.23-19.36.50:166][915]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling01_fbx.fbx]
+[2017.01.23-19.36.50:195][915]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling01_fbx.fbx
+[2017.01.23-19.36.50:199][915]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.36.50:220][915]LogStaticMesh: Building static mesh MD_Cons_Ceiling01_fbx...
+[2017.01.23-19.36.50:226][915]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_Ceiling01_fbx.MD_Cons_Ceiling01_fbx
+[2017.01.23-19.36.50:230][915]LogEditorFactories: -- imported successfully
+[2017.01.23-19.36.52:468][135]LogEditorFactories: Performing atomic reimport of [D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling02_fbx.fbx]
+[2017.01.23-19.36.52:498][135]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_Ceiling02_fbx.fbx
+[2017.01.23-19.36.52:501][135]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.36.52:525][135]LogStaticMesh: Building static mesh MD_Cons_Ceiling02_fbx...
+[2017.01.23-19.36.52:528][135]LogStaticMesh: Built static mesh [0.00s] /Game/Resources/MetroDungeon/MD_Cons_Ceiling02_fbx.MD_Cons_Ceiling02_fbx
+[2017.01.23-19.36.52:534][135]LogEditorFactories: -- imported successfully
+[2017.01.23-19.36.53:580][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_Ceiling01_fbx)
+[2017.01.23-19.36.54:449][227]Cmd: DELETE
+[2017.01.23-19.36.54:450][227]Cmd: ACTOR DELETE
+[2017.01.23-19.36.54:450][227]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.36.54:475][227]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2017.01.23-19.37.33:235][491]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_CurvedCeiling01_fbx.fbx)
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.23-19.37.33:247][491]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.23-19.37.33:250][491]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_CurvedCeiling01_fbx.fbx
+[2017.01.23-19.37.33:255][491]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.37.34:674][491]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_CurvedCeiling01_fbx.fbx
+[2017.01.23-19.37.34:678][491]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.37.34:680][491]LogStaticMesh: Building static mesh MD_Cons_CurvedCeiling01_fbx...
+[2017.01.23-19.37.34:691][491]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_CurvedCeiling01_fbx.MD_Cons_CurvedCeiling01_fbx
+[2017.01.23-19.37.34:697][491]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_CurvedCeiling02_fbx.fbx)
+[2017.01.23-19.37.34:703][491]LogFbx: Loading FBX Scene from D:/UEProjects/NoMi/NoMiProject/Import/MD_Cons_CurvedCeiling02_fbx.fbx
+[2017.01.23-19.37.34:708][491]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.23-19.37.34:709][491]LogStaticMesh: Building static mesh MD_Cons_CurvedCeiling02_fbx...
+[2017.01.23-19.37.34:717][491]LogStaticMesh: Built static mesh [0.01s] /Game/Resources/MetroDungeon/MD_Cons_CurvedCeiling02_fbx.MD_Cons_CurvedCeiling02_fbx
+[2017.01.23-19.37.36:906][600]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling01_fbx
+[2017.01.23-19.37.38:590][791]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling01_fbx
+[2017.01.23-19.37.40:393][875]LogRenderer: Reallocating scene render targets to support 1432x964 NumSamples 1 (Frame:93769).
+[2017.01.23-19.38.15:371][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CurvedCeiling01_fbx)
+[2017.01.23-19.38.26:013][778]Cmd: TRANSACTION UNDO
+[2017.01.23-19.38.26:013][778]LogEditorTransaction: Undo Move Actors
+[2017.01.23-19.38.38:585][560]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CurvedCeiling01_fbx)
+[2017.01.23-19.38.47:128][ 98]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling01_fbx
+[2017.01.23-19.38.47:908][176]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling01_fbx
+[2017.01.23-19.39.18:677][133]Cmd: TRANSACTION UNDO
+[2017.01.23-19.39.18:677][133]LogEditorTransaction: Undo Move Actors
+[2017.01.23-19.39.31:198][908]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling02_fbx
+[2017.01.23-19.39.32:383][ 22]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling02_fbx
+[2017.01.23-19.39.36:650][262]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CurvedCeiling01_fbx3)
+[2017.01.23-19.39.37:399][306]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MD_Cons_CurvedCeiling01_fbx4)
+[2017.01.23-19.39.38:296][363]Cmd: DELETE
+[2017.01.23-19.39.38:296][363]Cmd: ACTOR DELETE
+[2017.01.23-19.39.38:297][363]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.39.38:313][363]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.39.38:314][363]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.01.23-19.39.38:321][363]LogEditorActor: Deleted 3 Actors (0.024 secs)
+[2017.01.23-19.39.40:902][526]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling02_fbx
+[2017.01.23-19.39.42:250][680]LogActorFactory: Actor Factory created MD_Cons_CurvedCeiling02_fbx
+[2017.01.23-19.40.00:114][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CurvedCeiling02_fbx)
+[2017.01.23-19.40.12:357][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CurvedCeiling02_fbx2)
+[2017.01.23-19.40.12:944][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CurvedCeiling01_fbx2)
+[2017.01.23-19.40.26:303][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.23-19.40.32:278][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MD_Cons_CurvedCeiling02_fbx6)
+[2017.01.23-19.40.37:763][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.23-19.40.42:363][305]Cmd: TRANSACTION UNDO
+[2017.01.23-19.40.42:363][305]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.23-19.41.04:250][716]Cmd: MODE GRID=0
+[2017.01.23-19.41.10:396][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.01.23-19.41.23:359][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.01.23-19.41.23:452][759]LogSavePackage: Save=80.90ms
+[2017.01.23-19.41.23:452][759]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeonE4BE437243C2E134F245C3BCCC5AC2FC.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap'
+[2017.01.23-19.41.23:453][759]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon.umap
+[2017.01.23-19.41.23:463][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MetroDungeon_BuiltData" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset" SILENT=true
+[2017.01.23-19.41.23:957][759]LogSavePackage: Save=211.72ms
+[2017.01.23-19.41.23:957][759]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MetroDungeon_BuiltData53C22C6D4F380EAC98D4FAB439754111.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset'
+[2017.01.23-19.41.23:960][759]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Scenes/MetroDungeon_BuiltData.uasset
+[2017.01.23-19.41.38:390][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_CurvedCeiling01_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling01_fbx.uasset" SILENT=true
+[2017.01.23-19.41.38:399][  8]LogSavePackage: Save=7.55ms
+[2017.01.23-19.41.38:399][  8]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_CurvedCeiling01_fbx6A8520F74412F8BA7CEC74845E91AA47.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling01_fbx.uasset'
+[2017.01.23-19.41.38:400][  8]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling01_fbx.uasset
+[2017.01.23-19.41.38:417][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/MetroDungeon/MD_Cons_CurvedCeiling02_fbx" FILE="D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling02_fbx.uasset" SILENT=true
+[2017.01.23-19.41.38:425][  8]LogSavePackage: Save=7.51ms
+[2017.01.23-19.41.38:425][  8]LogSavePackage: Moving 'D:/UEProjects/NoMi/NoMiProject/Saved/MD_Cons_CurvedCeiling02_fbxDA5DBAE04B7BFEAF510A76822E4FF0A6.tmp' to 'D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling02_fbx.uasset'
+[2017.01.23-19.41.38:426][  8]LogSavePackage:Display: Finished SavePackage D:/UEProjects/NoMi/NoMiProject/Content/Resources/MetroDungeon/MD_Cons_CurvedCeiling02_fbx.uasset
+[2017.01.23-19.41.38:743][  9]Cmd: QUIT_EDITOR
+[2017.01.23-19.41.38:780][  9]LogExit: Preparing to exit.
+[2017.01.23-19.41.39:562][  9]LogExit: Editor shut down
+[2017.01.23-19.41.39:562][  9]LogExit: Transaction tracking system shut down
+[2017.01.23-19.41.39:604][  9]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.23-19.41.39:604][  9]LogExit: Object subsystem successfully closed.
+[2017.01.23-19.41.39:615][  9]LogD3D11RHI: Shutdown
+[2017.01.23-19.41.39:615][  9]LogD3D11RHI: CleanupD3DDevice
+[2017.01.23-19.41.39:652][  9]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.23-19.41.39:674][  9]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.23-19.41.39:674][  9]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A0C4ECA-4D53-0139-9A6B-FAAEDDB03517%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=695df47f4146c860d8098e818d10e830%7C53d085766f07496a9bf34dcc5d27aa54%7C403e18f4-5586-4356-94d0-76a3832769d4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (242)
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.01.23-19.41.39:689][  9]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.01.23-19.41.39:690][  9]LogDirectoryWatcher: A directory notification for 'C:/Program Files/UE4/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.01.23-19.41.39:692][  9]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Collections/' was aborted.
+[2017.01.23-19.41.39:692][  9]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/Developers/User/Collections/' was aborted.
+[2017.01.23-19.41.39:692][  9]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Saved/Collections/' was aborted.
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.01.23-19.41.39:692][  9]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.01.23-19.41.40:317][  9]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.01.23-19.41.40:360][  9]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.01.23-19.41.40:603][  9]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.01.23-19.41.40:604][  9]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.01.23-19.41.40:604][  9]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.01.23-19.41.40:604][  9]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.01.23-19.41.40:604][  9]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.01.23-19.41.40:605][  9]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.01.23-19.41.40:706][  9]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.01.23-19.41.40:806][  9]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.01.23-19.41.40:808][  9]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.23-19.41.40:808][  9]LogDirectoryWatcher: A directory notification for 'D:/UEProjects/NoMi/NoMiProject/Content/' was aborted.
+[2017.01.23-19.41.40:808][  9]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.23-19.41.40:808][  9]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.01.23-19.41.40:974][  9]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.01.23-19.41.40:985][  9]LogDerivedDataCache: Shutdown
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.01.23-19.41.40:985][  9]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.01.23-19.41.40:986][  9]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.23-19.41.40:986][  9]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.23-19.41.40:987][  9]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.23-19.41.40:988][  9]LogExit: Exiting.
+[2017.01.23-19.41.40:993][  9]Log file closed, 01/23/17 22:41:40
